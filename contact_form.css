@@ -1,0 +1,154 @@
+body{
+		padding:0;
+		margin:0;
+		font-family:"Public Sans";
+		font-size:14px;
+		background-color:#fdfdfd;
+		}
+.head0{
+		display:flex;
+		justify-content:space-between;
+		padding:10px 20px;
+		font-size:20px;
+		align-items:center;
+		font-weight:700;
+		}
+.ham{
+		font-size:23px;
+		}
+.drop{
+		width:0px;
+		height:0;
+		overflow: hidden;
+		transition:height .7s ease;
+		}
+.drop > div{
+		text-align: center;
+		padding:20px;
+		}
+.one{
+		padding:10px 20px;
+		margin:3pc auto 2pc auto;
+		}
+.topic{
+		font-size:30px;
+		font-weight:700;
+		}
+.one0{
+		margin:3pc auto 2pc auto;
+		}
+.head1{
+		font-weight:700;
+		}
+.two{				
+		margin:3pc auto 2pc auto;
+		padding:10px 20px;
+		}
+.input01{
+		width:90%;
+		display:block;
+		padding:15px;
+		margin:auto auto 1.2pc 0pc;
+		border-radius:5px;
+		border:1px solid #aeaeae;
+		background-color:#fff;
+		}
+.input02{
+		background-color:#fff;
+		padding:15px;
+		width:90%;
+		height:100px;
+		border-radius:5px;
+		border:1px solid #aeaeae;
+		margin:auto auto 1.2pc 0pc;
+		}
+button{
+		padding:12px 35px;
+		text-align:center;
+		border-radius:5px;
+		border:0px solid orange;
+		background-color:#111;
+		color:#fff;
+		outline:none;
+		}
+button:focus{
+		border:1px solid orange;
+		border-radius:5px;
+		}
+footer{
+		padding:10px 20px;
+		background-color:#111;
+		margin:4pc auto 0pc auto;
+		color:#f4f4f4;
+		}
+.name{
+		font-size:20px;
+		font-weight:700;
+	  }
+.handles{
+		display:flex;
+		width:50%;
+		justify-content: space-between;
+		margin:1pc auto 5pc 0pc;
+		}
+.send1{
+		background-color:#eeee00;
+		color:#111;
+		}
+.news{
+		display:flex;
+		}
+.input001{
+		padding:12px;
+		}
+.dflex1{
+		display:flex;
+		justify-content: space-around;
+		margin:2pc auto 2pc auto;
+		}
+.dflex1 > section > div{
+		padding:7px;
+		}
+.notflex1{
+		margin:auto;
+		width:max-content;
+		text-align:center;
+		}
+.notflex1 > div{
+		padding:7px;
+		}
+		
+		
+
+
+@media(min-width:768px){
+.ham{
+		display:none;
+		}
+.drop{
+		width:auto;
+		height:auto;
+		display:flex;
+		}
+header{
+		display:flex;
+		justify-content: space-between;
+		padding:0% 7%;
+		}
+.one{
+		width:40%;
+		}
+.two{
+		width:50%;
+		}
+.myflex1{
+		display:flex;
+		padding:0% 7%;
+		align-items: stretch;
+		}
+footer{
+		padding:3% 7%;
+		display:flex;
+		align-items: flex-start;
+		}
+}
